@@ -2,7 +2,6 @@
 ![Python](https://img.shields.io/badge/python-3.11-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-![Copilot](https://img.shields.io/badge/feito%20com-Copilot💙-purple)
 
 Este projeto implementa e compara diferentes modelos de classificação — clássicos e quânticos — aplicados ao problema de separação de círculos concêntricos. É uma introdução prática ao uso de computação quântica em Machine Learning.
 
