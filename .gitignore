@@ -1,0 +1,21 @@
+cat > .gitignore <<EOF
+# Ambientes virtuais
+.venv/
+venv/
+
+# Caches e temporários
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+
+# Resultados grandes
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.csv
+*.npy
+*.npz
+EOF
