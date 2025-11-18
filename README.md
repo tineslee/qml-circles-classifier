@@ -41,4 +41,4 @@ qml-project/
 
 ## Sobre
 
-Projeto desenvolvido por Thais Ines. Explorando o potencial da computação quântica aplicada à inteligência artificial.
+Projeto desenvolvido por Thais Ines.
