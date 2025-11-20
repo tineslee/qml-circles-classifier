@@ -2,6 +2,11 @@
 ![Python](https://img.shields.io/badge/python-3.11-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Supervisionado-green)
+![Quantum](https://img.shields.io/badge/Quantum-Computing-purple)
+![Framework-PennyLane](https://img.shields.io/badge/Framework-PennyLane-orange)
+![Framework-Qiskit](https://img.shields.io/badge/Framework-Qiskit-blue)
+
 
 Este projeto implementa e compara diferentes modelos de classificação — clássicos e quânticos — aplicados ao problema de separação de círculos concêntricos. É uma introdução prática ao uso de computação quântica em Machine Learning.
 
@@ -43,6 +48,32 @@ Este projeto implementa e compara diferentes modelos de classificação — clá
 - Usa **quantum kernels** para calcular similaridade entre vetores em espaço de Hilbert quântico.
 - Explora representações de dados inacessíveis para kernels clássicos.
 - Implementado com Qiskit, simulando execução em hardware quântico.
+
+---
+
+## Tipos de Aprendizado
+
+Este projeto combina aprendizado supervisionado clássico e aprendizado supervisionado quântico:
+
+- Supervisionado Clássico: modelos como Regressão Logística e SVM aprendem com exemplos rotulados (círculos internos vs externos).
+
+- Supervisionado Quântico: modelos como VQC e QSVM usam circuitos quânticos e kernels quânticos para aprender fronteiras de decisão em espaços de Hilbert.
+
+---
+
+ ## Técnicas de Machine Learning
+ 
+Modelos Clássicos:
+
+- Regressão Logística → baseline simples e interpretável
+
+- SVM com kernel RBF → poderoso para dados não linearmente separáveis
+
+Modelos Quânticos:
+
+- VQC (Variational Quantum Classifier) → circuito parametrizado otimizado por gradiente
+  
+- QSVM (Quantum Support Vector Machine) → kernels quânticos para medir similaridade em espaço quântico
 
 ---
   
@@ -109,6 +140,19 @@ Este projeto mostrou na prática como algoritmos **clássicos** e **quânticos**
 
 Em resumo: os algoritmos clássicos ainda lideram em confiabilidade, mas os quânticos já são promissores e representam uma **fronteira de pesquisa** que pode transformar áreas como saúde, finanças e ciência de dados nos próximos anos.
 
+---
+
+## Insights de Pesquisa
+
+- Clássicos: continuam sendo altamente eficientes e confiáveis.
+
+- Quânticos: já mostram competitividade, especialmente em simulações sem ruído.
+
+- Ruído quântico: destaca os desafios atuais (decoerência, erros), mas também abre espaço para pesquisa em mitigação.
+
+- Potencial futuro: kernels quânticos e circuitos variacionais podem trazer vantagens em dados complexos (saúde, finanças, ciência).
+
+---
 
 ## Sobre
 
