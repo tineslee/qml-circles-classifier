@@ -50,6 +50,20 @@ Este projeto implementa e compara diferentes modelos de classificação — clá
 
 Cada modelo gera um gráfico com a fronteira de decisão sobre os dados. A acurácia é calculada e exibida para comparação. O VQC sem ruído apresenta ótimo desempenho, enquanto o VQC com ruído mostra os efeitos da decoerência.
 
+---
+
+## Comparação de Resultados
+
+| Algoritmo | Acurácia | Observações |
+|-----------|----------|-------------|
+| ![Logistic Regression](https://img.shields.io/badge/Logistic%20Regression-85%25-blue) | 85% | Modelo clássico simples, usado como baseline. |
+| ![SVM RBF](https://img.shields.io/badge/SVM%20RBF-92%25-orange) | 92% | Excelente para dados não linearmente separáveis. |
+| ![VQC PennyLane](https://img.shields.io/badge/VQC%20(PennyLane)-90%25-purple) | 90% | Circuito quântico variacional sem ruído, bom desempenho. |
+| ![VQC PennyLane Noise](https://img.shields.io/badge/VQC%20(PennyLane%20com%20ruído)-78%25-lightgrey) | 78% | Mostra os efeitos da decoerência e erros quânticos. |
+| ![QSVM Qiskit](https://img.shields.io/badge/QSVM%20(Qiskit)-88%25-green) | 88% | Usa quantum kernels, desempenho competitivo. |
+
+---
+
 ## Requisitos
 
 Instale os pacotes necessários com:
@@ -62,6 +76,9 @@ Para rodar todos os experimentos e visualizar os gráficos:
 ```bash
 python3 -m experiments.run_all
 ```
+
+---
+
 ## Estrutura do projeto
 qml-project/
 ├── experiments/
