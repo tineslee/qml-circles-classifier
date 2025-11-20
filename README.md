@@ -12,6 +12,40 @@ Este projeto implementa e compara diferentes modelos de classificação — clá
 - VQC com PennyLane (com e sem ruído)
 - QSVM com Qiskit
 
+---
+
+## Algoritmos utilizados
+
+### 🔹 ![Logistic Regression](https://img.shields.io/badge/Algoritmo-Logistic%20Regression-blue)
+- **Regressão Logística (Clássico):** modelo estatístico simples para classificação binária.
+- Usa a função sigmoide para modelar probabilidades.
+- Serve como baseline para comparação com modelos mais complexos.
+
+---
+
+### 🔹 ![SVM RBF](https://img.shields.io/badge/Algoritmo-SVM%20RBF-orange)
+- **Support Vector Machine com Kernel RBF (Clássico):**
+- Encontra o hiperplano ótimo para separar classes.
+- Kernel RBF permite lidar com dados não linearmente separáveis (como círculos concêntricos).
+
+---
+
+### 🔹 ![VQC](https://img.shields.io/badge/Algoritmo-VQC%20(PennyLane)-purple)
+- **Variational Quantum Classifier (Quântico):**
+- Circuito quântico variacional com parâmetros treináveis.
+- Otimizado por gradiente para aprender fronteiras de decisão.
+- Testado **com e sem ruído** para simular dispositivos ideais e reais.
+
+---
+
+### 🔹 ![QSVM](https://img.shields.io/badge/Algoritmo-QSVM%20(Qiskit)-green)
+- **Quantum Support Vector Machine (Quântico):**
+- Usa **quantum kernels** para calcular similaridade entre vetores em espaço de Hilbert quântico.
+- Explora representações de dados inacessíveis para kernels clássicos.
+- Implementado com Qiskit, simulando execução em hardware quântico.
+
+---
+  
 ## Resultados
 
 Cada modelo gera um gráfico com a fronteira de decisão sobre os dados. A acurácia é calculada e exibida para comparação. O VQC sem ruído apresenta ótimo desempenho, enquanto o VQC com ruído mostra os efeitos da decoerência.
