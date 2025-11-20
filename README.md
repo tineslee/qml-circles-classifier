@@ -80,15 +80,35 @@ python3 -m experiments.run_all
 ---
 
 ## Estrutura do projeto
+
 qml-project/
+
 ├── experiments/
 │   └── run_all.py
+
 ├── src/
 │   ├── qml_pennylane.py
 │   └── qml_qiskit.py
+
 ├── requirements.txt
+
 ├── test_env.py
+
 └── .gitignore
+
+---
+
+## Conclusões
+
+Este projeto mostrou na prática como algoritmos **clássicos** e **quânticos** podem ser aplicados a um problema simples de classificação não-linear (círculos concêntricos).  
+
+- **Modelos clássicos** (Regressão Logística e SVM RBF) continuam sendo extremamente eficientes e alcançaram alta acurácia, especialmente o SVM com kernel RBF.  
+- **Modelos quânticos** (VQC e QSVM) já demonstram desempenho competitivo, mesmo em simulações, e trazem novas formas de representar dados.  
+- O **VQC com ruído** evidenciou os desafios atuais da computação quântica, como decoerência e erros, mas também reforçou a importância de estudar estratégias de mitigação.  
+- O **QSVM** mostrou que kernels quânticos podem oferecer vantagens em certos cenários, abrindo caminho para aplicações futuras em dados complexos.  
+
+Em resumo: os algoritmos clássicos ainda lideram em confiabilidade, mas os quânticos já são promissores e representam uma **fronteira de pesquisa** que pode transformar áreas como saúde, finanças e ciência de dados nos próximos anos.
+
 
 ## Sobre
 
